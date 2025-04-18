@@ -1,0 +1,17 @@
+{
+    "appId": "com.adiahn.all",
+    "files": ["dist-electron", "dist-react"],
+    "icon": "./storda.png", 
+
+    
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}

@@ -1,7 +1,7 @@
 import {app, BrowserWindow} from 'electron'
 import path from 'path'
 
-type test = String;
+// type test = String;
 
 app.on("ready", ()=> {
     const mainWindow = new BrowserWindow({})
